@@ -143,7 +143,7 @@ public class VisionOCR {
 
 	public void snidTextProcess(String text) throws ParseException {
 
-		SNIDTess4j snid = new SNIDTess4j();
+		SNIDTextProcess snid = new SNIDTextProcess();
 
 		String[] pText = snid.processText(text);
 
@@ -161,7 +161,7 @@ public class VisionOCR {
 
 	public void nidTextProcess(String text) throws ParseException {
 
-		NIDTess4j nid = new NIDTess4j();
+		NIDTextProcess nid = new NIDTextProcess();
 
 		String[] pText = nid.processText(text);
 
