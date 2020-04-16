@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mostafa.sna</groupId>
-	<artifactId>GoogleVisionOcrRestImpl</artifactId>
+	<artifactId>GoogleVisionOcrRestImpIUsingSpringBoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>VisionOCR</name>
